@@ -12,11 +12,8 @@ import {
     FaPlus,
     FaSignOutAlt,
     FaBoxOpen,
-    FaUsers
-<<<<<<< HEAD
-    ,FaPuzzlePiece
-=======
->>>>>>> 3e537144073f01281d307228e9202e1ef078851b
+    FaUsers,
+    FaPuzzlePiece
 } from "react-icons/fa";
 
 export default function Sidebar() {
@@ -66,14 +63,11 @@ export default function Sidebar() {
             icon: FaUsersCog,
             label: "Setting"
         },
-<<<<<<< HEAD
         {
             path: "/components",
             icon: FaPuzzlePiece,
             label: "Components"
         },
-=======
->>>>>>> 3e537144073f01281d307228e9202e1ef078851b
 
     ];
 

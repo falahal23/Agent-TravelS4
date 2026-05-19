@@ -23,10 +23,7 @@ const LaporanTransaksi = React.lazy(() => import("./pages/LaporanTransaksi"));
 // PRODUCT
 const Product = React.lazy(() => import("./pages/Products"));
 const DetailProduct = React.lazy(() => import("./pages/DetailProducts"));
-<<<<<<< HEAD
 const ComponentsPage = React.lazy(() => import("./pages/Components"));
-=======
->>>>>>> 3e537144073f01281d307228e9202e1ef078851b
 
 // AUTH
 const Login = React.lazy(() => import("./pages/auth/Login"));
@@ -61,10 +58,7 @@ function App() {
           {/* PRODUCT */}
           <Route path="/product" element={<Product />} />
           <Route path="/product/:id" element={<DetailProduct />} />
-<<<<<<< HEAD
           <Route path="/components" element={<ComponentsPage />} />
-=======
->>>>>>> 3e537144073f01281d307228e9202e1ef078851b
 
           {/* ERROR */}
           <Route path="/error-400" element={<ErrorPage errorCode="400" />} />
